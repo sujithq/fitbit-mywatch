@@ -1,0 +1,35 @@
+<svg viewport-fill="#111111">
+   <g>
+     <arc id="secsArc" x="30" y="30" width="240" height="240" fill="white"
+    arc-width="4" start-angle="0" sweep-angle="360" />
+  </g>
+  
+  <g>
+  <arc id="stepsArc" x="45" y="45" width="210" height="210" fill="red"
+    arc-width="4" start-angle="0" sweep-angle="360" />
+  </g>
+  
+  <g>
+  <arc id="activeMinutesArc" x="60" y="60" width="180" height="180" fill="orange"
+    arc-width="4" start-angle="0" sweep-angle="360" />
+  </g>
+  
+  <g>
+  <arc id="elevationGainArc" x="75" y="75" width="150" height="150" fill="#fdd733"
+    arc-width="4" start-angle="0" sweep-angle="360" />
+  </g>
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-1" y="-120" width="2" height="120" fill="white" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-1" y="-90" width="2" height="90" fill="white" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-1" y="-120" width="2" height="150" fill="red" />
+  </g>
+ 
+
+    <circle cx="150" cy="150" r="6" fill="red" />
+  <circle cx="150" cy="150" r="4" fill="black" />
+</svg>
